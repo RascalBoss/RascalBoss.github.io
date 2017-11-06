@@ -1,4 +1,6 @@
-abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video {
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,
+figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,
+section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -194,35 +196,43 @@ em {
 }
 
 @font-face {
-	font-family:icon;src:url(./fonts/icons.svg) format('svg'),url(./fonts/icons.ttf) format('truetype');font-weight:400;font-style:normal
+	font-family:icon;src:url(./fonts/icons.svg) format('svg'),
+		url(./fonts/icons.ttf) format('truetype');font-weight:400;font-style:normal
 }
 
 @font-face {
-	font-family:kevadamsoncomreg;src:url(./fonts/kevadamsoncomreg.otf) format('opentype'),url(./fonts/kevadamsoncomreg.woff) format('woff');font-weight:400;font-style:normal
+	font-family:kevadamsoncomreg;src:url(./fonts/kevadamsoncomreg.otf) format('opentype'),
+		url(./fonts/kevadamsoncomreg.woff) format('woff');font-weight:400;font-style:normal
 }
 
 @font-face {
-	font-family:kevadamsoncombold;src:url(./fonts/kevadamsoncombold.otf) format('opentype'),url(./fonts/kevadamsoncombold.woff) format('woff');font-weight:400;font-style:normal
+	font-family:kevadamsoncombold;src:url(./fonts/kevadamsoncombold.otf) format('opentype'),
+		url(./fonts/kevadamsoncombold.woff) format('woff');font-weight:400;font-style:normal
 }
 
 @font-face {
-	font-family:osr;src:url(./fonts/OpenSans-Regular-webfont.ttf) format('truetype'),url(./fonts/OpenSans-Regular-webfont.woff) format('woff');font-weight:400;font-style:normal
+	font-family:osr;src:url(./fonts/OpenSans-Regular-webfont.ttf) format('truetype'),
+		url(./fonts/OpenSans-Regular-webfont.woff) format('woff');font-weight:400;font-style:normal
 }
 
 @font-face {
-	font-family:osli;src:url(./fonts/OpenSans-LightItalic-webfont.ttf) format('truetype'),url(./fonts/OpenSans-LightItalic-webfont.woff) format('woff');font-weight:300;font-style:italic
+	font-family:osli;src:url(./fonts/OpenSans-LightItalic-webfont.ttf) format('truetype'),
+		url(./fonts/OpenSans-LightItalic-webfont.woff) format('woff');font-weight:300;font-style:italic
 }
 
 @font-face {
-	font-family:ossbi;src:url(./fonts/OpenSans-SemiboldItalic-webfont.ttf) format('truetype'),url(./fonts/OpenSans-SemiboldItalic-webfont.woff) format('woff');font-weight:600;font-style:italic
+	font-family:ossbi;src:url(./fonts/OpenSans-SemiboldItalic-webfont.ttf) format('truetype'),
+		url(./fonts/OpenSans-SemiboldItalic-webfont.woff) format('woff');font-weight:600;font-style:italic
 }
 
 @font-face {
-	font-family:osi;src:url(./fonts/OpenSans-Italic-webfont.ttf) format('truetype'),url(./fonts/OpenSans-Italic-webfont.woff) format('woff');font-weight:400;font-style:italic
+	font-family:osi;src:url(./fonts/OpenSans-Italic-webfont.ttf) format('truetype'),
+		url(./fonts/OpenSans-Italic-webfont.woff) format('woff');font-weight:400;font-style:italic
 }
 
 @font-face {
-	font-family:ossb;src:url(./fonts/OpenSans-Semibold-webfont.ttf) format('truetype'),url(./fonts/OpenSans-Semibold-webfont.woff) format('woff');font-weight:600;font-style:normal
+	font-family:ossb;src:url(./fonts/OpenSans-Semibold-webfont.ttf) format('truetype'),
+		url(./fonts/OpenSans-Semibold-webfont.woff) format('woff');font-weight:600;font-style:normal
 }
 
 @media only screen and (max-device-width:960px) {
@@ -1806,7 +1816,8 @@ hr {
 	box-shadow: 0 0 10px 0 rgba(0,0,0,.25)
 }
 
-.dribbble_items .slick-next a:focus,.dribbble_items .slick-next a:hover,.dribbble_items .slick-prev a:focus,.dribbble_items .slick-prev a:hover {
+.dribbble_items .slick-next a:focus,.dribbble_items .slick-next a:hover,.dribbble_items .slick-prev a:focus,
+.dribbble_items .slick-prev a:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
 	opacity: .8
@@ -2173,7 +2184,8 @@ button.button {
 	width: 100%
 }
 
-.external .h_dribbble a:focus,.external .h_dribbble a:hover,.external .h_medium a:focus,.external .h_medium a:hover,.external .h_tumblr a:focus,.external .h_tumblr a:hover,.external .h_twitter a:focus,.external .h_twitter a:hover {
+.external .h_dribbble a:focus,.external .h_dribbble a:hover,.external .h_medium a:focus,.external .h_medium a:hover,
+.external .h_tumblr a:focus,.external .h_tumblr a:hover,.external .h_twitter a:focus,.external .h_twitter a:hover {
 	color: #fff
 }
 
@@ -2262,7 +2274,8 @@ button.button {
 	transition: background .3s ease-in-out
 }
 
-.external .latest_medium li a:focus,.external .latest_medium li a:hover,.external .latest_tumblr li a:focus,.external .latest_tumblr li a:hover {
+.external .latest_medium li a:focus,.external .latest_medium li a:hover,.external .latest_tumblr li a:focus,
+.external .latest_tumblr li a:hover {
 	background-color: #000
 }
 
@@ -3017,7 +3030,8 @@ button.button {
 	text-transform: lowercase
 }
 
-.content .h_graphic_design .char2,.content .h_graphic_design .char3,.content .h_graphic_design .char4,.content .h_graphic_design .char6,.content .h_graphic_design .char7 {
+.content .h_graphic_design .char2,.content .h_graphic_design .char3,.content .h_graphic_design .char4,
+.content .h_graphic_design .char6,.content .h_graphic_design .char7 {
 	text-transform: uppercase
 }
 
@@ -3129,7 +3143,8 @@ button.button {
 	font-size: 5.1rem
 }
 
-.content .h_about_this_website .char1,.content .h_about_this_website .char2,.content .h_about_this_website .char3,.content .h_about_this_website .char4,.content .h_about_this_website .char5 {
+.content .h_about_this_website .char1,.content .h_about_this_website .char2,.content .h_about_this_website .char3,
+.content .h_about_this_website .char4,.content .h_about_this_website .char5 {
 	color: #e43
 }
 
@@ -3173,7 +3188,8 @@ button.button {
 	margin-bottom: 25px
 }
 
-.content .h_legal_info .char1,.content .h_legal_info .char2,.content .h_legal_info .char3,.content .h_legal_info .char4,.content .h_legal_info .char5 {
+.content .h_legal_info .char1,.content .h_legal_info .char2,.content .h_legal_info .char3,.content .h_legal_info .char4,
+.content .h_legal_info .char5 {
 	color: #e43
 }
 
@@ -3218,7 +3234,8 @@ button.button {
 	margin-bottom: 26px
 }
 
-.content .h_payment_terms .char9,.content .h_payment_terms .char10,.content .h_payment_terms .char11,.content .h_payment_terms .char12,.content .h_payment_terms .char13 {
+.content .h_payment_terms .char9,.content .h_payment_terms .char10,.content .h_payment_terms .char11,
+.content .h_payment_terms .char12,.content .h_payment_terms .char13 {
 	color: #e43
 }
 
@@ -4536,7 +4553,8 @@ form:after {
 	}
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio:1.25) and (max-width:409px),only screen and (min-resolution:120dpi) and (max-width:409px) {
+@media only screen and (-webkit-min-device-pixel-ratio:1.25) and (max-width:409px),
+	only screen and (min-resolution:120dpi) and (max-width:409px) {
 	.nav strong {
 		left: 35%
 	}
