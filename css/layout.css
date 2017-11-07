@@ -1,6 +1,4 @@
-abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,
-figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,
-section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video {
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -196,43 +194,35 @@ em {
 }
 
 @font-face {
-	font-family:icon;src:url(./fonts/icons.svg) format('svg'),
-		url(./fonts/icons.ttf) format('truetype');font-weight:400;font-style:normal
+	font-family:icon;src:url(../fonts/icons.svg) format('svg'),url(../fonts/icons.ttf) format('truetype');font-weight:400;font-style:normal
 }
 
 @font-face {
-	font-family:kevadamsoncomreg;src:url(./fonts/kevadamsoncomreg.otf) format('opentype'),
-		url(./fonts/kevadamsoncomreg.woff) format('woff');font-weight:400;font-style:normal
+	font-family:kevadamsoncomreg;src:url(../fonts/kevadamsoncomreg.otf) format('opentype'),url(../fonts/kevadamsoncomreg.woff) format('woff');font-weight:400;font-style:normal
 }
 
 @font-face {
-	font-family:kevadamsoncombold;src:url(./fonts/kevadamsoncombold.otf) format('opentype'),
-		url(./fonts/kevadamsoncombold.woff) format('woff');font-weight:400;font-style:normal
+	font-family:kevadamsoncombold;src:url(../fonts/kevadamsoncombold.otf) format('opentype'),url(../fonts/kevadamsoncombold.woff) format('woff');font-weight:400;font-style:normal
 }
 
 @font-face {
-	font-family:osr;src:url(./fonts/OpenSans-Regular-webfont.ttf) format('truetype'),
-		url(./fonts/OpenSans-Regular-webfont.woff) format('woff');font-weight:400;font-style:normal
+	font-family:osr;src:url(../fonts/OpenSans-Regular-webfont.ttf) format('truetype'),url(../fonts/OpenSans-Regular-webfont.woff) format('woff');font-weight:400;font-style:normal
 }
 
 @font-face {
-	font-family:osli;src:url(./fonts/OpenSans-LightItalic-webfont.ttf) format('truetype'),
-		url(./fonts/OpenSans-LightItalic-webfont.woff) format('woff');font-weight:300;font-style:italic
+	font-family:osli;src:url(../fonts/OpenSans-LightItalic-webfont.ttf) format('truetype'),url(../fonts/OpenSans-LightItalic-webfont.woff) format('woff');font-weight:300;font-style:italic
 }
 
 @font-face {
-	font-family:ossbi;src:url(./fonts/OpenSans-SemiboldItalic-webfont.ttf) format('truetype'),
-		url(./fonts/OpenSans-SemiboldItalic-webfont.woff) format('woff');font-weight:600;font-style:italic
+	font-family:ossbi;src:url(../fonts/OpenSans-SemiboldItalic-webfont.ttf) format('truetype'),url(../fonts/OpenSans-SemiboldItalic-webfont.woff) format('woff');font-weight:600;font-style:italic
 }
 
 @font-face {
-	font-family:osi;src:url(./fonts/OpenSans-Italic-webfont.ttf) format('truetype'),
-		url(./fonts/OpenSans-Italic-webfont.woff) format('woff');font-weight:400;font-style:italic
+	font-family:osi;src:url(../fonts/OpenSans-Italic-webfont.ttf) format('truetype'),url(../fonts/OpenSans-Italic-webfont.woff) format('woff');font-weight:400;font-style:italic
 }
 
 @font-face {
-	font-family:ossb;src:url(./fonts/OpenSans-Semibold-webfont.ttf) format('truetype'),
-		url(./fonts/OpenSans-Semibold-webfont.woff) format('woff');font-weight:600;font-style:normal
+	font-family:ossb;src:url(../fonts/OpenSans-Semibold-webfont.ttf) format('truetype'),url(../fonts/OpenSans-Semibold-webfont.woff) format('woff');font-weight:600;font-style:normal
 }
 
 @media only screen and (max-device-width:960px) {
@@ -430,6 +420,10 @@ hr {
 
 .i_linkedin:before {
 	content: '\e018'
+}
+
+.i_weibo:before {
+	content: '微博'
 }
 
 .i_arrow_up_sml:before {
@@ -746,7 +740,7 @@ hr {
 .container:after {
 	display: block;
 	content: "";
-	background: url(./img/line.png) no-repeat 0 0;
+	background: url(../img/line.png) no-repeat 0 0;
 	height: 1px;
 	width: 100%;
 	position: absolute;
@@ -778,7 +772,7 @@ hr {
 	display: block;
 	content: "";
 	position: absolute;
-	background: transparent url(./img/paper_horiz.svg) repeat-x 0 0;
+	background: transparent url(../img/paper_horiz.svg) repeat-x 0 0;
 	top: 100%;
 	right: 0;
 	width: 100%;
@@ -786,7 +780,7 @@ hr {
 }
 
 .no-svg .internal:after {
-	background-image: url(./img/paper_horiz.png)
+	background-image: url(../img/paper_horiz.png)
 }
 
 .logo_wrap {
@@ -1023,7 +1017,7 @@ hr {
 .main:after {
 	display: block;
 	content: "";
-	background: url(./img/line.png) no-repeat 0 0;
+	background: url(../img/line.png) no-repeat 0 0;
 	height: 1px;
 	width: 100%;
 	position: absolute;
@@ -1124,13 +1118,13 @@ hr {
 }
 
 .n_web a {
-	background-image: url(./img/nav1.svg);
+	background-image: url(../img/nav1.svg);
 	color: #e43;
 	backface-visibility: hidden
 }
 
 .no-svg .n_web a {
-	background-image: url(./img/nav1.png)
+	background-image: url(../img/nav1.png)
 }
 
 .n_web .char12 {
@@ -1174,13 +1168,13 @@ hr {
 }
 
 .n_illus a {
-	background-image: url(./img/nav2.svg);
+	background-image: url(../img/nav2.svg);
 	color: #fc0;
 	backface-visibility: hidden
 }
 
 .no-svg .n_illus a {
-	background-image: url(./img/nav2.png)
+	background-image: url(../img/nav2.png)
 }
 
 .n_illus .char12 {
@@ -1240,13 +1234,13 @@ hr {
 }
 
 .n_graph a {
-	background-image: url(./img/nav3.svg);
+	background-image: url(../img/nav3.svg);
 	color: #fff;
 	backface-visibility: hidden
 }
 
 .no-svg .n_graph a {
-	background-image: url(./img/nav3.png)
+	background-image: url(../img/nav3.png)
 }
 
 .n_graph .char11 {
@@ -1310,13 +1304,13 @@ hr {
 }
 
 .n_anim a {
-	background-image: url(./img/nav4.svg);
+	background-image: url(../img/nav4.svg);
 	color: #5c0;
 	backface-visibility: hidden
 }
 
 .no-svg .n_anim a {
-	background-image: url(./img/nav4.png)
+	background-image: url(../img/nav4.png)
 }
 
 .n_anim .char12,.n_anim .char14,.n_anim .char15 {
@@ -1349,7 +1343,7 @@ hr {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url(./img/splat.svg) 50% no-repeat;
+	background: url(../img/splat.svg) 50% no-repeat;
 	width: 100%;
 	height: 100%;
 	pointer-events: none;
@@ -1360,7 +1354,7 @@ hr {
 }
 
 .no-svg .nav:after {
-	background-image: url(./img/splat.png)
+	background-image: url(../img/splat.png)
 }
 
 .no-pointerevents .nav:after {
@@ -1816,8 +1810,7 @@ hr {
 	box-shadow: 0 0 10px 0 rgba(0,0,0,.25)
 }
 
-.dribbble_items .slick-next a:focus,.dribbble_items .slick-next a:hover,.dribbble_items .slick-prev a:focus,
-.dribbble_items .slick-prev a:hover {
+.dribbble_items .slick-next a:focus,.dribbble_items .slick-next a:hover,.dribbble_items .slick-prev a:focus,.dribbble_items .slick-prev a:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
 	opacity: .8
@@ -1950,7 +1943,7 @@ hr {
 	content: "";
 	width: 182px;
 	height: 42px;
-	background-image: url(./img/tape.svg);
+	background-image: url(../img/tape.svg);
 	position: absolute;
 	top: -20px;
 	left: 50%;
@@ -1960,7 +1953,7 @@ hr {
 }
 
 .no-svg .tape_shadow:after {
-	background-image: url(./img/tape.png)
+	background-image: url(../img/tape.png)
 }
 
 .tape_shadow .example:after,.tape_shadow .example:before {
@@ -2184,15 +2177,14 @@ button.button {
 	width: 100%
 }
 
-.external .h_dribbble a:focus,.external .h_dribbble a:hover,.external .h_medium a:focus,.external .h_medium a:hover,
-.external .h_tumblr a:focus,.external .h_tumblr a:hover,.external .h_twitter a:focus,.external .h_twitter a:hover {
+.external .h_dribbble a:focus,.external .h_dribbble a:hover,.external .h_medium a:focus,.external .h_medium a:hover,.external .h_tumblr a:focus,.external .h_tumblr a:hover,.external .h_twitter a:focus,.external .h_twitter a:hover {
 	color: #fff
 }
 
 .external .h_dribbble:after,.external .h_medium:after,.external .h_tumblr:after,.external .h_twitter:after {
 	display: block;
 	content: "";
-	background: url(./img/line_white.png) no-repeat 0 0;
+	background: url(../img/line_white.png) no-repeat 0 0;
 	height: 1px;
 	width: 100%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
@@ -2267,15 +2259,14 @@ button.button {
 }
 
 .external .latest_medium li a,.external .latest_tumblr li a {
-	background: #404040 url(./img/line_white.png) repeat-x 0 100%;
+	background: #404040 url(../img/line_white.png) repeat-x 0 100%;
 	padding-left: 3px;
 	padding-right: 3px;
 	color: #fff;
 	transition: background .3s ease-in-out
 }
 
-.external .latest_medium li a:focus,.external .latest_medium li a:hover,.external .latest_tumblr li a:focus,
-.external .latest_tumblr li a:hover {
+.external .latest_medium li a:focus,.external .latest_medium li a:hover,.external .latest_tumblr li a:focus,.external .latest_tumblr li a:hover {
 	background-color: #000
 }
 
@@ -2338,7 +2329,7 @@ button.button {
 }
 
 .external .latest_twitter .tweet a {
-	background: #404040 url(./img/line_white.png) repeat-x 0 100%;
+	background: #404040 url(../img/line_white.png) repeat-x 0 100%;
 	padding-left: 3px;
 	padding-right: 3px;
 	color: #fff;
@@ -2548,7 +2539,7 @@ button.button {
 	content: "";
 	width: 100%;
 	height: 1px;
-	background: url(./img/line_white.png) no-repeat 0 100%;
+	background: url(../img/line_white.png) no-repeat 0 100%;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -2664,7 +2655,7 @@ button.button {
 }
 
 .copyright li a {
-	background: #404040 url(./img/line_white.png) repeat-x 0 100%;
+	background: #404040 url(../img/line_white.png) repeat-x 0 100%;
 	padding-left: 3px;
 	padding-right: 3px;
 	color: #fff;
@@ -2698,7 +2689,7 @@ button.button {
 }
 
 .content .fake,.content a {
-	background: #f2f2f2 url(./img/line.png) repeat-x 0 100%;
+	background: #f2f2f2 url(../img/line.png) repeat-x 0 100%;
 	padding-left: 3px;
 	padding-right: 3px;
 	color: #222;
@@ -2728,7 +2719,7 @@ button.button {
 
 .content hr {
 	height: 1px;
-	background: url(./img/line.png) no-repeat 0 0;
+	background: url(../img/line.png) no-repeat 0 0;
 	transform: rotate(-1deg)
 }
 
@@ -2747,7 +2738,7 @@ button.button {
 
 .content>ul li {
 	padding-left: 35px;
-	background: url(./img/star.svg) no-repeat 5px 5px;
+	background: url(../img/star.svg) no-repeat 5px 5px;
 	margin-bottom: 10px
 }
 
@@ -2764,7 +2755,7 @@ button.button {
 }
 
 .no-svg .content>ul li {
-	background-image: url(./img/star.png)
+	background-image: url(../img/star.png)
 }
 
 .no-svg .content>ul li li {
@@ -2773,7 +2764,7 @@ button.button {
 
 .i_found_this .content h3 {
 	padding-left: 35px;
-	background: url(./img/star.svg) no-repeat 5px 5px
+	background: url(../img/star.svg) no-repeat 5px 5px
 }
 
 .content>.prev_next li {
@@ -2818,7 +2809,7 @@ button.button {
 .content .h1.myfont:after,.content h1.myfont:after {
 	display: block;
 	content: "";
-	background: url(./img/line.png) no-repeat 0 0;
+	background: url(../img/line.png) no-repeat 0 0;
 	height: 1px;
 	width: 100%
 }
@@ -3030,8 +3021,7 @@ button.button {
 	text-transform: lowercase
 }
 
-.content .h_graphic_design .char2,.content .h_graphic_design .char3,.content .h_graphic_design .char4,
-.content .h_graphic_design .char6,.content .h_graphic_design .char7 {
+.content .h_graphic_design .char2,.content .h_graphic_design .char3,.content .h_graphic_design .char4,.content .h_graphic_design .char6,.content .h_graphic_design .char7 {
 	text-transform: uppercase
 }
 
@@ -3143,8 +3133,7 @@ button.button {
 	font-size: 5.1rem
 }
 
-.content .h_about_this_website .char1,.content .h_about_this_website .char2,.content .h_about_this_website .char3,
-.content .h_about_this_website .char4,.content .h_about_this_website .char5 {
+.content .h_about_this_website .char1,.content .h_about_this_website .char2,.content .h_about_this_website .char3,.content .h_about_this_website .char4,.content .h_about_this_website .char5 {
 	color: #e43
 }
 
@@ -3188,8 +3177,7 @@ button.button {
 	margin-bottom: 25px
 }
 
-.content .h_legal_info .char1,.content .h_legal_info .char2,.content .h_legal_info .char3,.content .h_legal_info .char4,
-.content .h_legal_info .char5 {
+.content .h_legal_info .char1,.content .h_legal_info .char2,.content .h_legal_info .char3,.content .h_legal_info .char4,.content .h_legal_info .char5 {
 	color: #e43
 }
 
@@ -3234,8 +3222,7 @@ button.button {
 	margin-bottom: 26px
 }
 
-.content .h_payment_terms .char9,.content .h_payment_terms .char10,.content .h_payment_terms .char11,
-.content .h_payment_terms .char12,.content .h_payment_terms .char13 {
+.content .h_payment_terms .char9,.content .h_payment_terms .char10,.content .h_payment_terms .char11,.content .h_payment_terms .char12,.content .h_payment_terms .char13 {
 	color: #e43
 }
 
@@ -3518,7 +3505,7 @@ form:before {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: url(./img/splat.svg) 50% no-repeat;
+	background: url(../img/splat.svg) 50% no-repeat;
 	width: 100%;
 	height: 100%;
 	pointer-events: none;
@@ -3533,7 +3520,7 @@ form:before {
 }
 
 .no-svg form:before {
-	background-image: url(./img/splat.png)
+	background-image: url(../img/splat.png)
 }
 
 .no-pointerevents form:before {
@@ -3579,7 +3566,7 @@ form .button {
 form:after {
 	display: block;
 	content: "";
-	background: url(./img/line.png) no-repeat 0 0;
+	background: url(../img/line.png) no-repeat 0 0;
 	height: 1px;
 	width: 100%;
 	margin-top: 10px;
@@ -3856,7 +3843,7 @@ form:after {
 	}
 
 	.no-cssgradients.e body,.no-cssgradients body {
-		background: #222 url(./img/bg.png) repeat-y 50% 0;
+		background: #222 url(../img/bg.png) repeat-y 50% 0;
 		-webkit-filter: none;
 		filter: none
 	}
@@ -3873,7 +3860,7 @@ form:after {
 	}
 
 	.internal:after {
-		background: transparent url(./img/paper_vert.svg) repeat-y 0 0;
+		background: transparent url(../img/paper_vert.svg) repeat-y 0 0;
 		top: 0;
 		right: -40px;
 		width: 40px;
@@ -3881,7 +3868,7 @@ form:after {
 	}
 
 	.no-svg .internal:after {
-		background-image: url(./img/paper_vert.png)
+		background-image: url(../img/paper_vert.png)
 	}
 
 	.external {
@@ -4010,7 +3997,7 @@ form:after {
 		display: block;
 		content: "";
 		position: absolute;
-		background: transparent url(./img/paper_horiz.svg) repeat-x 0 0;
+		background: transparent url(../img/paper_horiz.svg) repeat-x 0 0;
 		top: 100%;
 		right: 0;
 		width: 100%;
@@ -4018,7 +4005,7 @@ form:after {
 	}
 
 	.no-svg .internal:after {
-		background-image: url(./img/paper_horiz.png)
+		background-image: url(../img/paper_horiz.png)
 	}
 
 	.main {
@@ -4211,7 +4198,7 @@ form:after {
 	}
 
 	.no-cssgradients.e body,.no-cssgradients body {
-		background: #222 url(./img/bg.png) repeat-y 50% 0;
+		background: #222 url(../img/bg.png) repeat-y 50% 0;
 		-webkit-filter: none;
 		filter: none
 	}
@@ -4228,7 +4215,7 @@ form:after {
 	}
 
 	.internal:after {
-		background: transparent url(./img/paper_vert.svg) repeat-y 0 0;
+		background: transparent url(../img/paper_vert.svg) repeat-y 0 0;
 		top: 0;
 		right: -40px;
 		width: 40px;
@@ -4236,7 +4223,7 @@ form:after {
 	}
 
 	.no-svg .internal:after {
-		background-image: url(./img/paper_vert.png)
+		background-image: url(../img/paper_vert.png)
 	}
 
 	.external {
@@ -4553,8 +4540,7 @@ form:after {
 	}
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio:1.25) and (max-width:409px),
-	only screen and (min-resolution:120dpi) and (max-width:409px) {
+@media only screen and (-webkit-min-device-pixel-ratio:1.25) and (max-width:409px),only screen and (min-resolution:120dpi) and (max-width:409px) {
 	.nav strong {
 		left: 35%
 	}
